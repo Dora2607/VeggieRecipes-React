@@ -2,12 +2,14 @@ import { Divider } from "@mui/material";
 import HeroBanner from "../components/HomeComponents/heroBanner";
 import Cards from "../components/Cards/cards";
 import HomeSection from "../components/HomeComponents/homeSection";
+import RecipesType from "../components/HomeComponents/recipesType";
 
 function Home() {
   return (
     <div className="pageContainer">
       <HeroBanner></HeroBanner>
       <Divider variant="middle" sx={{borderWidth:'2px'}}></Divider>
+      <RecipesType></RecipesType>
       <HomeSection></HomeSection>
     </div>
   );

@@ -14,24 +14,8 @@ import {
 } from "../../stores/recipesSlice";
 import Pagination from "@mui/material/Pagination";
 import Error from "../error";
+import typeRecipes from "../../data/typeRecipes";
 
-const typeRecipes = [
-  "all recipes",
-  "main course",
-  "side dish",
-  "dessert",
-  "appetizer",
-  "salad",
-  "bread",
-  "breakfast",
-  "soup",
-  "beverage",
-  "sauce",
-  "marinade",
-  "fingerfood",
-  "snack",
-  "drink",
-];
 
 function Cards() {
   const dispatch = useDispatch();
