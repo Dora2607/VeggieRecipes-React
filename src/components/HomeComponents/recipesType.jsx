@@ -14,7 +14,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 function RecipesType() {
   const [expanded, setExpanded] = useState(false); // Stato per gestire l'espansione
-  const isSmallScreen = useMediaQuery((theme) => theme.breakpoints.down("sm")); // Controllo per piccoli schermi
+  const isSmallScreen = useMediaQuery((theme) => theme.breakpoints.down("md")); // Controllo per piccoli schermi
 
   const handleToggle = () => {
     setExpanded(!expanded); // Alterna tra stato espanso e compresso
