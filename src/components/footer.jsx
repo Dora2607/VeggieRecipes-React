@@ -1,13 +1,14 @@
-import { Box, Typography, Link } from "@mui/material";
+import { Box, Typography, useTheme } from "@mui/material";
 
 function Footer() {
+  const theme = useTheme();
   return (
     <Box
       component="footer"
       sx={{
         padding: "1rem",
-        backgroundColor: "primary.main",
-        color: "black",
+        backgroundColor: theme.palette.background.section,
+
         textAlign: "center",
         marginTop: "auto",
       }}

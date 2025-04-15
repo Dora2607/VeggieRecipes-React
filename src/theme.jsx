@@ -12,7 +12,7 @@ const lightThemeOptions = {
     background: {
       default: '#ffffff',
       paper: '#ffffff',
-      section: 'rgba(254, 213, 17, 0.3)'
+      section: 'rgba(254, 213, 17, 0.2)'
     },
     text: {
       primary: '#000000',

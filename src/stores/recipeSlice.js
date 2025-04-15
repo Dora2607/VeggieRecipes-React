@@ -5,14 +5,21 @@ export const fetchRecipeThunk = createAsyncThunk(
   "recipes/fetchRecipe",
   async (id) => {
     const data = await fetchRecipe(id);
-    return data;
+    return {
+      ...data,
+      extendedIngredients: data.extendedIngredients || [],
+      analyzedInstructions: data.analyzedInstructions || [],
+    };
   }
 );
 
 export const recipeSlice = createSlice({
   name: "recipe",
   initialState: {
-    recipe: {},
+    recipe: {
+      extendedIngredients: [],
+      analyzedInstructions: [],
+    },
     status: "idle",
     error: null,
   },
@@ -39,5 +46,4 @@ export const recipeSlice = createSlice({
 });
 
 export const recipeReducer = recipeSlice.reducer;
-
 export const { getRecipe } = recipeSlice.actions;

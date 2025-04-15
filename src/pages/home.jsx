@@ -8,7 +8,6 @@ function Home() {
   return (
     <div className="pageContainer">
       <HeroBanner></HeroBanner>
-      <Divider variant="middle" sx={{borderWidth:'2px'}}></Divider>
       <RecipesType></RecipesType>
       <HomeSection></HomeSection>
     </div>

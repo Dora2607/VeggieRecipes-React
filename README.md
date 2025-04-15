@@ -12,19 +12,19 @@ L'applicativo è interamente sviluppato con React, utilizzando Material UI per l
 Di seguito alcuni screenshot dimostrativi dell'applicazione:
 
 - **Home:**  
-  ![Screenshot Home](./screenshots/home.png)
-  ![Screenshot Home](./screenshots/home2.png)
+  ![Screenshot Home](public/screenshots/home.png) 
+  ![Screenshot Home](public/screenshots/home2.png)
   
 - **Ricette per Dieta Specifica:**  
-  ![Screenshot Recipes](./screenshots/recipes.png)
-  ![Screenshot Recipes](./screenshots/search.png)
-  ![Screenshot Recipes](./screenshots/no results.png)
+  ![Screenshot Recipes](public/screenshots/recipes.png)
+  ![Screenshot Recipes](public/screenshots/search.png)
+  ![Screenshot Recipes](public/screenshots/no results.png)
   
 - **Dettaglio Ricetta:**  
-  ![Screenshot Recipe](./screenshots/recipe.png)
+  ![Screenshot Recipe](public/screenshots/recipe.png)
   
 - **Ricette Preferite:**  
-  ![Screenshot Favorites](./screenshots/favorite recipes.png)
+  ![Screenshot Favorites](public/screenshots/favorite recipes.png)
 
 
 
