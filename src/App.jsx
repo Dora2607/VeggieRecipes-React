@@ -14,7 +14,7 @@ import Recipes from "./pages/recipes";
 import { Provider } from "react-redux";
 import store from "./stores/store";
 import ThemeWrapper from "./components/themeWrapper.jsx";
-import Cards from "./components/Cards/cards.jsx";
+import Cards from "./components/cards.jsx";
 import Error from "./components/error.jsx";
 
 const router = createBrowserRouter(

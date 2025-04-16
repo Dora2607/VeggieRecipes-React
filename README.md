@@ -12,19 +12,18 @@ L'applicativo è interamente sviluppato con React, utilizzando Material UI per l
 Di seguito alcuni screenshot dimostrativi dell'applicazione:
 
 - **Home:**  
-  ![Screenshot Home](public/screenshots/home.png) 
-  ![Screenshot Home](public/screenshots/home2.png)
+![Screenshot Home](public/screenshots/home.png) 
+  
   
 - **Ricette per Dieta Specifica:**  
-  ![Screenshot Recipes](public/screenshots/recipes.png)
-  ![Screenshot Recipes](public/screenshots/search.png)
-  ![Screenshot Recipes](public/screenshots/no results.png)
+
+  ![Screenshot Recipes](public/screenshots/noResults.png)
   
 - **Dettaglio Ricetta:**  
-  ![Screenshot Recipe](public/screenshots/recipe.png)
+//Aggiungere Img
   
 - **Ricette Preferite:**  
-  ![Screenshot Favorites](public/screenshots/favorite recipes.png)
+  ![Screenshot Favorites](public/screenshots/favoriteRecipes.png)
 
 
 
@@ -51,17 +50,13 @@ Assicurati di avere installato Node.js e npm o yarn per gestire le dipendenze.
 1. **Clona il repository:**
 
    ```bash
-   git clone https://github.com/tuo-username/vegetarian-recipes-web-app.git
-   cd vegetarian-recipes-web-app
+   git clone https://github.com/Dora2607/VeggieRecipes-React.git
+   cd veggie-recipes-web-app
    ```
 2. **Installa le dipendenze:**
 npm install
-# oppure, se preferisci yarn:
-# yarn install
-
 3. **Avvia l'applicazione:**
 npm run dev
-
 4. **Accedi al sito web:**
 Apri il tuo browser e vai a [http://localhost:5173](http://localhost:5173).
 

@@ -13,7 +13,6 @@ export const fetchRecipesThunk = createAsyncThunk(
 
     const maxOffset = 900;
     const offset = Math.min((page - 1) * number, maxOffset);
-
     const data = await fetchRecipes(diet, type, query, offset, number);
     return data;
   }

@@ -13,18 +13,22 @@ import {
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import { useNavigate } from "react-router";
+import { setType } from "../../stores/recipesSlice";
+import { useDispatch } from "react-redux";
 
 function RecipesType() {
   const [expanded, setExpanded] = useState(false);
   const isSmallScreen = useMediaQuery((theme) => theme.breakpoints.down("md"));
   const theme = useTheme();
+  const dispatch = useDispatch();
   const navigate = useNavigate();
   const handleToggle = () => {
     setExpanded(!expanded);
   };
 
   const handleTypesClick =(typeName)=>{
-    navigate(`/recipes/vegetarian`, {state:{type:typeName}});
+    dispatch(setType(typeName))
+    navigate(`/recipes/vegetarian`);
   }
 
   return (

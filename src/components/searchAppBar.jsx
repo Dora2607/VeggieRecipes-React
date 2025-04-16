@@ -5,6 +5,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { toggleTheme } from "../stores/themeSlice";
 import DrawerMenu from "./AppBarComponents/drawerMenu";
 import AppBarContent from "./AppBarComponents/toolbar";
+import diets from "../data/diet";
+
 
 export default function SearchAppBar() {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -22,7 +24,6 @@ export default function SearchAppBar() {
   };
   const handleThemeToggle = () => dispatch(toggleTheme());
 
-  const diets = ["Vegetarian", "Lacto-Vegetarian", "Ovo-Vegetarian", "Vegan"];
 
   return (
     <Box sx={{ flexGrow: 1 }}>
