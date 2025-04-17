@@ -13,17 +13,21 @@ Di seguito alcuni screenshot dimostrativi dell'applicazione:
 
 - **Home:**  
 ![Screenshot Home](public/screenshots/home.png) 
-  
-  
-- **Ricette per Dieta Specifica:**  
+![Screenshot Home](public/screenshots/home2.png)  
 
-  ![Screenshot Recipes](public/screenshots/noResults.png)
-  
-- **Dettaglio Ricetta:**  
-//Aggiungere Img
+- **Panoramica ricette:**
+![Screenshot Ricerca](public/screenshots/recipes.png)
+![Screenshot Ricerca](public/screenshots/recipes2.png)
+
+- **Dettagli Ricetta:**
+![Screenshot Dettagli Ricetta](public/screenshots/recipe.png)
+
+- **Ricette per ricerca Specifica:**  
+![Screenshot Recipes](public/screenshots/search.png)
+![Screenshot Recipes](public/screenshots/noResults.png)
   
 - **Ricette Preferite:**  
-  ![Screenshot Favorites](public/screenshots/favoriteRecipes.png)
+![Screenshot Favorites](public/screenshots/favoriteRecipes.png)
 
 
 

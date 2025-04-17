@@ -18,7 +18,6 @@ function CardsTabs({ diet, type, onTypeChange, onDietChange }) {
 
   const handleDietChange = (selectedDiet) => {
     selectedDiet = selectedDiet.toLowerCase()
-    console.log(selectedDiet)
     onDietChange(selectedDiet);
     handleMenuClose();
   };

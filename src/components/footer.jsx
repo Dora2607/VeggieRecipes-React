@@ -13,7 +13,7 @@ function Footer() {
         marginTop: "auto",
       }}
     >
-      <Typography variant="body2">Created by Addolorata Sparagno</Typography>
+      <Typography variant="body2">Created by <a href="https://mywebsite-a1aa4.web.app/">Addolorata Sparagno</a> </Typography>
       <Typography variant="body2">
         © {new Date().getFullYear()} Veggie Recipes. All Rights Reserved.
       </Typography>
